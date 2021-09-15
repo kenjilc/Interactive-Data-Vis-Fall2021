@@ -17,3 +17,61 @@ h3 {
 p {
   font-size: 1em;
 }
+
+table
+{
+  border-collapse: separate;
+  border-spacing: 10px;
+  text-align: center;
+  border-style:dotted;
+}
+
+th
+{
+  border-style:dashed;
+}
+tr
+{
+  background-color:wheat;
+}
+td{
+  border-style: double;
+}
+
+.Course {
+  text-decoration: underline;;
+}
+.ClassNumb {
+  
+}
+.Section {
+  
+}
+.Room {
+ 
+}
+.Time {
+ 
+}
+.Instructor {
+  font-weight: bold;;
+}
+.MeetingDates {
+ 
+}
+.Status {
+  
+}
+.BookstoreLink {
+  color: blue;
+}
+.InstructionMode {
+  color: red;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

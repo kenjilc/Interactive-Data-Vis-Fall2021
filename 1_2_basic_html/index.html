@@ -6,13 +6,115 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>K.Logie</h1>
     <h3>Tutorial Assignment: 1_2_basic_html </h3>
     <table>
-      <!-- Add your table data here -->
+      <thead>
+        <tr>
+          <th colspan="10">Fall 2021 Data Visualization and Anlysis Course Schedule</th>
+        </tr>
+        <tr>
+          <th>Course</th>
+          <th>Class</th>
+          <th>Section</th>
+          <th>Days & Times</th>
+          <th>Room</th>
+          <th>Instructor</th>
+          <th>Meeting Dates</th>
+          <th>Status</th>
+          <th>Bookstore Link</th>
+          <th>Instruction Mode</th>
+        </tr>
+      </thead>
+      <tr>
+        <td class="Course">DATA 70500 - Working with Data: Fundamentals</td>
+        <td class="ClassNumb">56538</td>
+        <td class="Section">01-LEC Regular</td>
+        <td class="Time">Tu 6:30PM - 8:30PM</td>
+        <td class="Room">TBA</td>
+        <td class="Instructor">Timothy Shortell</td>
+        <td class="MeetingDates">08/25/2021 - 12/21/2021</td>
+        <td class="Status">Closed</td>
+        <td class="BookstoreLink">Assigned</td>
+        <td class="InstructionMode">Online</td>
+      <tr>
+       <td class="Course">DATA 70600 - Special Topics in Computational Fundamentals</td>
+        <td class="ClassNumb">64495</td>
+        <td class="Section">01-SEM Regular</td>
+        <td class="Time">Th 6:30PM - 7:30PM</td>
+        <td class="Room">TBA</td>
+        <td class="Instructor">Stephen Zweibel</td>
+        <td class="MeetingDates">08/25/2021 - 12/21/2021</td>
+        <td class="Status">Closed</td>
+        <td class="BookstoreLink">Not Assigned</td>
+        <td class="InstructionMode">Online</td>
+      </tr>
+      <tr>
+       <td class="Course">DATA 71000 - Data Analysis Methods</td>
+        <td class="ClassNumb">56337</td>
+        <td class="Section">01-SEM Regular</td>
+        <td class="Time">Th 4:15PM - 6:15PM</td>
+        <td class="Room">TBA</td>
+        <td class="Instructor">Howard Everson</td>
+        <td class="MeetingDates">08/25/2021 - 12/21/2021</td>
+        <td class="Status">Closed</td>
+        <td class="BookstoreLink">Not Assigned</td>
+        <td class="InstructionMode">Online</td>
+      </tr>
+      <tr>
+        <td class="Course">DATA 73000 - Visualization and Design</td>
+        <td class="ClassNumb">56272</td>
+        <td class="Section">01-SEM Regular</td>
+        <td class="Time">Mo 6:30PM - 8:30PM</td>
+        <td class="Room">GradCenter 6417</td>
+        <td class="Instructor">Michelle McSweeney</td>
+        <td class="MeetingDates">08/25/2021 - 12/21/2021</td>
+        <td class="Status">Closed</td>
+        <td class="BookstoreLink">Assigned</td>
+        <td class="InstructionMode">Hybrid</td>
+      </tr>
+      <tr>
+       <td class="Course">DATA 73200 - Interactive Data Visualization</td>
+        <td class="ClassNumb">56335</td>
+        <td class="Section">01-SEM Regular</td>
+        <td class="Time">We 6:30PM - 8:30PM</td>
+        <td class="Room">GradCenter 6417</td>
+        <td class="Instructor">Eleanor Frymire</td>
+        <td class="MeetingDates">08/25/2021 - 12/21/2021</td>
+        <td class="Status">Open</td>
+        <td class="BookstoreLink">Not Assigned</td>
+        <td class="InstructionMode">Hybrid</td>
+      </tr>
+      <tr>
+       <td class="Course">DATA 74000 - Data, Culture and Society</td>
+        <td class="ClassNumb">56336</td>
+        <td class="Section">01-SEM Regular</td>
+        <td class="Time">Tu 4:15PM - 6:15PM</td>
+        <td class="Room">TBA</td>
+        <td class="Instructor">Katherine Behar</td>
+        <td class="MeetingDates">08/25/2021 - 12/21/2021</td>
+        <td class="Status">Open</td>
+        <td class="BookstoreLink">Not Assigned</td>
+        <td class="InstructionMode">Open</td>
+      </tr>
     </table>
-    <svg>
-      <!-- Add your rectangles in here -->
+    </br>
+    </br>
+    <input  type="text" id="orphanInputBox" placeholder="An orphan Textbox"/>
+    <button type="button" onclick="alert(document.getElementById('orphanInputBox').value)";>Click for Changes</button>
+    </br>
+    </br>
+    <svg style="width:900px; height:450px">
+      <defs>
+        <radialGradient id="myGradient">
+          <stop offset="0%"   stop-color="yellow" />
+          <stop offset="100%" stop-color="blue" />
+        </radialGradient>
+      </defs>  
+      <rect x="450" width="400" height="400" rx="15" fill="url(#myGradient)" />      
     </svg>
+    </br>
+    </br>
+    <img src="https://pbs.twimg.com/media/D71NsbbXsAA7ved.jpg" alt="Garfield Comic Strip" class="center">
   </body>
 </html>
