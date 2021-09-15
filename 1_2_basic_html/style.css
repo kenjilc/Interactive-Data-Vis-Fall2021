@@ -42,25 +42,25 @@ td{
   text-decoration: underline;;
 }
 .ClassNumb {
-  
+  color: grey;
 }
 .Section {
-  
+  color: grey;
 }
 .Room {
- 
+  color: grey;
 }
 .Time {
- 
+  color: green;
 }
 .Instructor {
   font-weight: bold;;
 }
 .MeetingDates {
- 
+  color: grey;
 }
 .Status {
-  
+  color: grey;
 }
 .BookstoreLink {
   color: blue;
