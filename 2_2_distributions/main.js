@@ -96,8 +96,8 @@ d3.json("../data/france.json", d3.autoType).then(data => {
     .attr("x", width - margin.right * 1.4)
     .attr("y", (_, i) => 220 + i * 20)
     .text(d => d)
-    .style("font-size", "12px")
-    .attr("alignment-baseline","left")    
-
+    .style("font-size", "10px")
+    .style("font-weight", "bold")
+    
 
 });
