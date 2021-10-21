@@ -74,7 +74,7 @@ d3.json("../data/france.json", d3.autoType).then(data => {
   svg.append("text")
     .text("Country")
     .attr("x", width - margin.right * 2)
-    .attr("y", 200)
+    .attr("y", 420)
     .style("font-weight", "bold")
   
   //Legend Circles 
@@ -83,7 +83,7 @@ d3.json("../data/france.json", d3.autoType).then(data => {
     .join("circle")
     .attr("class", "colorCircle")
     .attr("cx", width - margin.right * 1.75)
-    .attr("cy", (_, i) => 215 + i * 20)
+    .attr("cy", (_, i) => 445 + i * 20)
     .attr("r", 6)
     .style("fill", d => d)
 
@@ -94,7 +94,7 @@ d3.json("../data/france.json", d3.autoType).then(data => {
     .join("text")
     .attr("class", "legend")
     .attr("x", width - margin.right * 1.4)
-    .attr("y", (_, i) => 220 + i * 20)
+    .attr("y", (_, i) => 440 + i * 20)
     .text(d => d)
     .style("font-size", "10px")
     .style("font-weight", "bold")
