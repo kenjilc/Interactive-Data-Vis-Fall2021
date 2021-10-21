@@ -94,7 +94,7 @@ d3.json("../data/france.json", d3.autoType).then(data => {
     .join("text")
     .attr("class", "legend")
     .attr("x", width - margin.right * 1.4)
-    .attr("y", (_, i) => 440 + i * 20)
+    .attr("y", (_, i) => 445 + i * 20)
     .text(d => d)
     .style("font-size", "10px")
     .style("font-weight", "bold")
