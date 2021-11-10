@@ -26,3 +26,12 @@ p {
 path.state {
   stroke: black;
 }
+
+#hover-content {
+  position: absolute;  
+  height: 50px;
+  width: fit-content;
+  pointer-events: none;
+  top: 200px;
+  left: 100px;
+}
