@@ -88,8 +88,8 @@ function init() {
     })     
     .attr("stroke", "grey")
 
-    // Hate Crime Points
-    svg1.selectAll("circle.heatChange")
+  // Hate Crime Points
+  const statenIslandBoundry1 = svg1.selectAll("circle.heatChange")
     .data(state.hatecrime)
     .join("circle")
     .attr("r", 2)
@@ -125,6 +125,15 @@ function init() {
      draw();
      })
 
+     //Retrieve Hate Crime Point Data
+     statenIslandBoundry1.on("mousemove", (ev, d) => {
+      //console.log('d :>> ', d);
+      //console.log(d.properties.precinct)
+      //console.log(d.properties.Count_)
+     state.hover_ofns =  d.OFNS_DESC;
+     state.hover_year = d.Arrest_Year;
+     draw();
+    })
   // Title for Color Legend
   svg1.append("text")
   .text("Legend")
@@ -166,7 +175,9 @@ function draw() {
     .html(
       `<div>Average Number of Noise Complaints Per Precinct: 30225</div>
       <div>Staten Island Precinct: ${state.hover_state}</div>
-      <div>Noise Complaints: ${state.hover_population}</div>`
+      <div>Noise Complaints: ${state.hover_population}</div>
+      <div>Offense Type: ${state.hover_ofns}</div>
+      <div>Arrest Year: ${state.hover_year}</div>`
     )
   }
     
