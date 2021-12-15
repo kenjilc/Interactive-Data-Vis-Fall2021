@@ -1,0 +1,20 @@
+FID_1,BoroCode,BoroName,CountyFIPS,NTACode,NTAName,Shape_Leng,Shape_Area,count,AboveAverage
+0,5,Staten Island,85,SI32,Rossville-Woodrow,33247.25863,64963357.47,4,0
+1,5,Staten Island,85,SI37,Stapleton-Rosebank,55229.6374,46426790.73,5,0
+2,5,Staten Island,85,SI36,Old Town-Dongan Hills-South Beach,41973.13599,67011969.39,4,0
+3,5,Staten Island,85,SI14,Grasmere-Arrochar-Ft. Wadsworth,39960.12259,40931878.25,5,0
+4,5,Staten Island,85,SI99,park-cemetery-etc-Staten Island,41469.13936,23377619.14,3,0
+5,5,Staten Island,85,SI07,Westerleigh,41655.70482,63256575.25,4,0
+6,5,Staten Island,85,SI22,West New Brighton-New Brighton-St. George,66052.59376,56028570.77,6,1
+7,5,Staten Island,85,SI24,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,75942.80487,184889785.9,10,1
+8,5,Staten Island,85,SI25,Oakwood-Oakwood Beach,44221.91658,55943838.33,5,0
+9,5,Staten Island,85,SI54,Great Kills,66104.65612,89611143.57,6,1
+10,5,Staten Island,85,SI01,Annadale-Huguenot-Prince's Bay-Eltingville,71312.16465,141191279.7,6,1
+11,5,Staten Island,85,SI11,Charleston-Richmond Valley-Tottenville,84983.68113,145533837.3,4,0
+12,5,Staten Island,85,SI45,New Dorp-Midland Beach,34369.12074,55449518.83,5,0
+13,5,Staten Island,85,SI08,Grymes Hill-Clifton-Fox Hills,37119.8869,37752288.74,4,0
+14,5,Staten Island,85,SI35,New Brighton-Silver Lake,30320.36281,47137508.5,6,1
+15,5,Staten Island,85,SI05,New Springville-Bloomfield-Travis,109182.4715,327198747.8,9,1
+16,5,Staten Island,85,SI48,Arden Heights,29695.26439,50414781.74,5,0
+17,5,Staten Island,85,SI12,Mariner's Harbor-Arlington-Port Ivory-Graniteville,71207.55608,89455508.27,3,0
+18,5,Staten Island,85,SI28,Port Richmond,39056.35784,36420581.97,4,0

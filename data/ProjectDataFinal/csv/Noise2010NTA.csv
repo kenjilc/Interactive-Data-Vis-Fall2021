@@ -1,0 +1,20 @@
+FID_1,boro_code,boro_name,county_fip,ntacode,ntaname,shape_area,shape_leng,count,AboveAverage
+0,5,Staten Island,85,SI32,Rossville-Woodrow,64963357.61,33247.25869,2766,0
+1,5,Staten Island,85,SI08,Grymes Hill-Clifton-Fox Hills,37752553.59,37119.89973,8407,1
+2,5,Staten Island,85,SI37,Stapleton-Rosebank,46426790.85,55229.63705,12729,1
+3,5,Staten Island,85,SI35,New Brighton-Silver Lake,47137243.79,30320.37518,5180,0
+4,5,Staten Island,85,SI11,Charleston-Richmond Valley-Tottenville,145538289.6,84989.47862,4323,0
+5,5,Staten Island,85,SI01,Annadale-Huguenot-Prince's Bay-Eltingville,141191278.2,71312.16485,4072,0
+6,5,Staten Island,85,SI54,Great Kills,89611143.37,66104.65584,6417,1
+7,5,Staten Island,85,SI36,Old Town-Dongan Hills-South Beach,67011968.9,41973.13608,6060,0
+8,5,Staten Island,85,SI14,Grasmere-Arrochar-Ft. Wadsworth,40931878.27,39960.1229,3234,0
+9,5,Staten Island,85,SI45,New Dorp-Midland Beach,55449518.5,34369.12047,5273,0
+10,5,Staten Island,85,SI48,Arden Heights,50412725.71,29692.71292,3534,0
+11,5,Staten Island,85,SI25,Oakwood-Oakwood Beach,55943838.53,44221.91695,3242,0
+12,5,Staten Island,85,SI99,park-cemetery-etc-Staten Island,23377619.32,41469.14006,7,0
+13,5,Staten Island,85,SI12,Mariner's Harbor-Arlington-Port Ivory-Graniteville,89455490.8,71207.75143,9834,1
+14,5,Staten Island,85,SI28,Port Richmond,36420599.23,39056.55489,6747,1
+15,5,Staten Island,85,SI07,Westerleigh,63256575.23,41655.70486,5720,0
+16,5,Staten Island,85,SI22,West New Brighton-New Brighton-St. George,56028570.83,66052.59296,21728,1
+17,5,Staten Island,85,SI24,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,184889785.7,75942.80477,4554,0
+18,5,Staten Island,85,SI05,New Springville-Bloomfield-Travis,327200804.7,109179.9193,7074,1
