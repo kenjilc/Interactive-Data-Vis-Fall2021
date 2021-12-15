@@ -9,9 +9,12 @@ The project allows users to see the number of noise complaints, the number of ha
 
 Hate crimes have generally been described as illegal acts of violence and intimidation against intentionally selected individuals or their property based on a perpetrator’s bias or prejudice against a victim’s race, religion, national origin, sexual orientation, or other perceived group affiliation. Additionally, hate crimes typically have a spatial component that is usually overlooked. However, the concepts of borders, boundaries, territory, and the appropriate geographical space for individuals of a particular race are included in the literature relating to hate crimes where the motivating bias is race. At the federal level, the collection of hate crime data was legislated in the Hate Crime Statistics Act of 1990, which mandated the collection of data on crimes with evidence of bias based on race, religion, sexual orientation, or ethnicity. The 1994 Violent Crime Control Act increased the penalties for crimes committed based on perceived or actual bias. The 2009 Hate Crime Prevention Act added sexual orientation, gender, gender identity, and disability to the general list of offenses. At the local and state level, many of their laws mimic the federal legislation; however, they also include additional categories to reflect each state and cities unique situation.
 
-**Why it matters **
+**Why it matters**
+
 •	Data collected in California in 2007 showed the significant decline from reported crimes to convictions when “2,000 hate crimes were reported to police, yet prosecutors filed only 330 complaints, and only 110 convictions were obtained” (Gerstenfeld, 2013). 
+
 •	In a hearing with FBI Director Wray, Senator Blumenthal expressed concerns that based on current reporting practices, 87 percent of hate crimes are under-reported under the current system.
+
 •	Staten Island presents a unique problem for ascertaining areas of concentration for hate crimes. Utilizing statistical methods and performing statistical analysis on Staten Island data generally or using annual results leads to statistically insignificant results. By utilizing only Staten Island data and different geographical boundaries, we can identify areas with a high concentration of hate crime and observe how the tensions within these areas with a high probability of hate crime are reflected in the above-average number of noise complaints from 2006-2020.
 
 **Design Decisions** 
